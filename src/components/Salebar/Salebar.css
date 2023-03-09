@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.salebar-container {
+  background-color: rgb(243, 240, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sale-img {
+  width: 20px;
+}
+.sale-shipping {
+  color: rgb(184, 60, 38);
+  font-weight: bolder;
+}
+.sale-code {
+  display: flex;
+  gap: 10px;
+}
+.code-color {
+  color: blue;
+  font-weight: bolder;
+}

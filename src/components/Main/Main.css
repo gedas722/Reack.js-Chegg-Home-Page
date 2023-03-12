@@ -1,5 +1,43 @@
-.background-img {
+.main-container {
+  background-image: url("../../images/background.jpg");
+  background-size: cover;
+  height: 100vh;
   width: 100%;
-  padding: 0;
-  margin: 0;
+}
+.main-header {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 40px;
+}
+
+.search-bar {
+  text-align: center;
+  background-color: lightgrey;
+  display: block;
+  width: 500px;
+  padding: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search-bar-input {
+  background-color: lightgrey;
+  width: 400px;
+}
+.search-bar-btn {
+  background-color: orange;
+  color: aliceblue;
+  padding: 10px;
+}
+.search-bar-txt {
+  text-align: center;
+  color: lightgrey;
+}
+.tile-menu {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+.main-footer {
+  text-align: center;
+  padding: 200px;
 }
